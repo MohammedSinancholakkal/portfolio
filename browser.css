@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+
+
+header{
+    background-color: rgba(0, 0, 0, 0.799);
+    height: 50px;
+    display: flex;
+    margin: 0;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+   
+}
+h1{
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+span{
+    color: blueviolet;
+    font-size: 30px;
+}
+
+header ul{
+    padding: 16px;
+    display: flex;
+ 
+}
+
+header ul li{
+   margin-left: 40px;
+   
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+header h1 {
+    margin-right: 530px;
+}
+header img{
+    margin-top:2px;
+    height: 47px;
+    width: 50px;
+}
+header li:hover{
+   
+    color: blueviolet;
+    height: 32px;
+
+}
+
+header li:hover{
+    scale: 1.15;
+    text-shadow: 2px 4px 8px blueviolet;
+    /* color:rgb(172, 8, 232); */
+    text-decoration: underline; 
+    color: white;  
+
+}
+
+img{
+    width: 1218px;
+    height: 1000px;
+}
+
+.overlay h1{
+    position: absolute;
+    left: 11%;
+    top: 19%;
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 70px;
+    transition: 2s;
+   
+
+}
+.overlay h1:hover{
+    scale: 1.05;
+    text-shadow:2px 4px 6px pink;
+}
+
+.round{
+    position: absolute;
+    font-family:'Courier New', Courier, monospace;
+    left:19% ;
+    top: 50%;
+   
+
+}
+.round button{
+    width: 107px;
+    height: 32px;
+}
+.round button{
+    font-size: 20px;
+    box-shadow: 2px 4px 6px pink;
+}
+.round button:hover{
+    scale: 1.05;
+    text-shadow:2px 4px 6px pink;
+    color:blueviolet;
+
+}
+.desclaimer ul{
+    position: absolute;
+    top:68%;
+    left: 10%;
+    color: white;
+    text-decoration:underline;
+    
+}
+.desclaimer h1{
+    position: absolute;
+    top:60%;
+    left: 15%;
+    color: white;
+    text-decoration:underline rgb(255, 255, 255);
+
+}
+.desclaimer h1:hover{ 
+    text-shadow: 2px 4px 6px  pink ;
+ 
+
+}
+.car img{
+    position: absolute;
+    width: 550px;
+    height: 371px;
+    left:45% ;
+    top:30%;
+   
+    
+}
+.car img:hover{
+    scale: 1.05;
+    transition: 3s;
+    height: 400px;
+    width: 650px;
+
+}
+.games{
+    padding: 10px;
+}
+.one{
+    width: 220px;
+    height: 300px;
+    margin: 30px;
+    border: 3px solid white;
+}
+
+.col{
+    position: absolute;
+    top: 110%;
+
+}
+
+.col button{
+    position: absolute;
+    background-color: black;
+    color: white;
+    left: 110px;
+    top: 349px;
+    width: 80px;
+    height: 30px;
+}

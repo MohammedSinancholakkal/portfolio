@@ -1,0 +1,250 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+
+}
+nav{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin: 20px;
+    color: brown;
+     text-decoration: none;
+     font-size: 15px;
+
+
+
+}
+nav ul li a:hover{
+    text-shadow: 2px 2px 4px black;
+    text-decoration: underline;
+}
+
+video{
+    width: 1225px;
+    height: 600px;
+    object-fit: cover;
+    
+   
+
+
+}
+.overlay{
+    position: absolute;
+    top:30% ;
+    left:60% ;
+
+}
+h1{
+    color:aliceblue;
+}
+
+h1:hover{
+    color: rgb(11, 11, 119);
+    text-decoration: underline;
+    text-shadow: 3px 3px 6px white;
+}
+
+span{
+    color: rgb(69, 69, 240);
+    font-size: 30px;
+}
+#home{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+
+}
+#home::before{
+    content: "";
+    background-image: url(https://t3.ftcdn.net/jpg/03/02/88/46/360_F_302884605_actpipOdPOQHDTnFtp4zg4RtlWzhOASp.jpg);
+    height: 100%;
+    background-size: cover;
+}
+.main{
+    border: 3px solid rgb(5, 51, 125);
+    padding: 10px;
+    position: absolute;
+    left: 70%;
+    margin-top: 20%;
+    box-shadow:2px 4px 6px white;
+
+
+    
+
+}
+.main:hover{
+    scale: 1.05;
+
+}
+
+h3{
+    color:blueviolet ;
+    background-color: burlywood;
+    text-align: center;
+}
+
+.pic{
+    display: flex;
+}
+
+
+
+.pic img{
+   width:300px;
+   display: flex;
+    
+}
+.pic img:hover{
+    width: 300px;
+    display: flex;
+    filter:drop-shadow(2px 4px 6px black)
+
+     
+ }
+
+.pic h4{
+    color: blueviolet;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+}
+.gallery{
+    box-shadow: 2px 4px 6px black;
+    margin: 2px;
+  
+}
+.gallery img{
+    width: 330px;
+    margin: 5px;
+    margin-left: 50px;
+    padding: 5px;
+    border: 2px inset black;
+    border-radius: 7px;
+
+    
+    
+}
+.gallery img:hover{
+    scale: 1.05;
+}
+
+.row{
+    display: flex;
+    margin-top: 10px;
+}
+.box{
+    width: 294px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    background: linear-gradient( to top, rgb(177, 220, 255) 50% ,rgb(255, 255, 255) 50%);
+    background-size: 100% 200%;
+    transition: all 1.0s;
+}
+.box img{
+    width: 240px;
+    height: 150px;
+   margin-left: 25px;
+   margin-top: 10px;
+    
+}
+.box h5{
+  
+    font-size: 30px;
+    color: blue;
+   text-align: center;
+   
+    text-shadow: 2px 4px 6px black;
+
+  
+}
+.box p{
+    margin-top: 20px;
+}
+.box:hover{
+    background-position: bottom;
+    filter:drop-shadow(2px 4px 6px black)
+}
+form{
+    width:500px;
+    margin-left: 430px;
+}
+.input{
+    width: 500px;
+    margin: 10px;
+}
+button{
+    color: azure;
+    background-color: skyblue;
+    cursor: pointer;
+    padding: 5px;
+}
+.hire{
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    border-radius: 20%;
+    margin-left: 50%;
+    margin-top: 30%;
+    padding: 5px;
+
+
+   
+}
+#connect{
+    background-color: rgba(38, 36, 183, 0.653);
+    width: 1200px;
+    height: 200px;
+    margin-top: 30px;
+
+   
+}
+
+h2{
+    margin: 2px;
+    font-size: 20PX;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+
+}
+#connect a{ 
+    margin: 10px;
+
+}
+
+.REW{
+    text-align: center;
+    margin-top:0%;
+    margin-left:50%;
+
+}
+.loc{
+    text-align: center;
+    margin-left:35%;
+    margin-top:20px; 
+
+}
+
+.ln h3{
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    margin-left:50%;
+
+}
+
+
