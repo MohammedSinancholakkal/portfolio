@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav{
+    background-color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+   
+}
+nav ul{
+    display: flex;
+    margin-top: 10px;
+
+}
+
+nav ul li a{
+    margin: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+  
+   
+}
+nav li:hover{
+
+    text-shadow: 2px 4px 6px white;
+    scale: 1.15;
+}
+img{
+ margin: 1px;
+
+
+}
+.home{
+    width: 100%;
+}
+section img{
+    width: 410px;
+    height: 500px;
+    margin-left: 5px;
+   
+   
+}   
+section h3{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+/* .about{
+    min-width: 100%;
+} */
+
+.pic{
+    display: flex;
+}
+
+
+
+.pic img{
+    width: 500px;
+    height: 300px;
+   display: flex;
+    
+}
+/* .pic img:hover{
+    scale: 1.05;
+    transition: 2s;
+    display: flex;
+    filter:drop-shadow(2px 4px 6px rgb(0, 0, 0))
+
+     
+ } */
+
+.pic h4{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+    margin: 30px;
+    text-decoration: underline;
+
+}
+/* .pic h4:hover{
+    background-color: black;
+    color: white; */
+
+
+/* } */
+.pic p{
+    font-size: 18px;
+}
+.hs{
+   margin-top:5px;
+    
+}
+.dr{
+    background-color: rgb(255, 255, 255);
+    margin-top: 5px;
+    display: flex;
+    text-align: center;
+}
+main h3:hover{
+    scale: 1.05;
+    text-shadow: 2px 4px 6px white;
+
+}
+.dr h4{
+    text-align: center;
+}
+.row{
+    display: flex;
+    width: 10px;
+    padding: 30px;
+    margin-left: 20px;
+    
+}
+.row img{
+    width: 240px;
+    height: 150px;
+}
+
+.col{
+    height: 400px;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 10px;
+    justify-content: center;
+    background: linear-gradient(to top, rgb(54, 63, 70) 50% ,rgb(255, 255, 255) 50%);
+    background-size: 100% 200%;
+    transition: all 1.0s;
+}
+
+.col:hover{
+    scale: 1.05;
+    transition: 1s;
+    height: 400px;
+    width: 750px;
+
+}
+.col h4{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: underline;
+    text-shadow: 2px 4px 6px black;
+}
+.col img{
+    width: 250px;
+    transition:2s;
+
+}
+.col p{
+    margin-top: 20px;
+}
+.col:hover{
+        background-position: bottom;
+        filter:drop-shadow(2px 4px 6px black);
+        color: white;
+       
+        
+}
+#connect{
+    background-color: rgb(27, 28, 30);
+    color: white;
+    height: 165px;
+    width: 100%;
+}
+#connect h4{
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 11%;
+
+}
